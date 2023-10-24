@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aliceblue;
+        }
+
+        h1,
+        h2,
+        p {
+            text-align: center
+        }
+
+        table {
+            width: 50%;
+            background-color: antiquewhite;
+            text-align: center;
+            border: 1px;
+            border: solid
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+        }
+
+        th, td {
+            border-top-width: 1px;
+            border-top-style: solid;
+            border-left-width: 1px;
+            border-left-style: solid;
+            border-right-width: 1px;
+            border-right-style: solid;
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+            font-size: 1.4em;
+        
+        }
+        tr:nth-child(even){
+            background-color: rgb(255, 242, 234);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Trabajo 05 - Uso de tablas</h1>
+
+    <h2>1.¿Cuál es la etiqueta principal utilizada para crear una tabla en HTML?</h2>
+    <p>Table es la etiqueta principal porque es la encargada de contener todo lo demas, es decir, es la que marca el
+        inicio y el final de la tabla</p>
+    <h2>2.¿Qué etiqueta se utiliza para definir una fila en una tabla?</h2>
+    <p>Tr es la etiqueta que se utiliza para definir una fila en una tabla</p>
+    <h2>3.¿Cuál es la etiqueta utilizada para crear una celda de encabezado en una tabla?</h2>
+    <p>Th es la etiqueta que se utiliza para crear una celda de encabezado</p>
+    <h2>4.¿Cuál es la etiqueta utilizada para crear una celda de datos en una tabla?</h2>
+    <p>Td es la etiqueta que se utiliza para crear una celda de datos </p>
+    <h2>5.¿Qué atributo se utiliza para especificar cuántas columnas debe abarcar una celda?</h2>
+    <p>El atributo colspan se utiliza para especificar cuantas columnas debe abarcar</p>
+    <h2>6.¿Qué atributo se utiliza para especificar cuántas filas debe abarcar una celda?</h2>
+    <p>El atributo rowspan es el que se utiliza para especificar cuantas filas debe abarcar</p>
+    <h2>7.Si necesitamos crear una tabla con 10 filas ¿qué etiqueta y cuántas veces se debe utilizar para definir las
+        filas?</h2>
+    <p>Se necesitan 10 tr</p>
+
+    <main>
+        <table>
+            <tr>
+                <th>Alimento</th>
+
+                <th>Calorias</th>
+
+                <th>Clase</th>
+
+                <th>Imagen</th>
+            </tr>
+            <tr>
+                <td>Frutilla</td>
+                <td>25</td>
+                <td>Fruta</td>
+                <td><img src="assets/fruti.png" alt="" width="110px"></td>
+            </tr>
+            <tr>
+                <td>Damasco</td>
+                <td>48</td>
+                <td>Fruta</td>
+                <td><img src="assets/damasco.png" alt="" width="100px"></td>
+            </tr>
+            <tr>
+                <td>pipi</td>
+                <td>pp</td>
+                <td>is</td>
+                <td>a</td>
+            </tr>
+        </table>
+    </main>
+
+
+
+
+</body>
+
+</html>
